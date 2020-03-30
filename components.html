@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      href="https://kriesi.at/themes/enfold/files/2013/04/favicon.png"
+      type="image/png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Components</title>
+  </head>
+
+  <body style="background-color: #eee; padding: 3rem;">
+    <section class="components" id="components" style="margin: 0 auto;">
+      <!-- navbar components -->
+      <div class="u-center-text">
+        <h2 class="heading-secondary">
+          Navbar Components
+        </h2>
+        <span
+          class="hr hr--center hr--short u-margin-bottom-medium u-margin-top-small"
+        ></span>
+      </div>
+      <nav class="navbar u-margin-bottom-huge">
+        <ul class="navbar__list">
+          <li class="navbar__item navbar__item--active">
+            <a href="#" class="navbar__link">Active Item</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Item</a>
+          </li>
+          <li class="navbar__item dropdown">
+            <a href="#" class="navbar__link">dropdown-menu</a>
+            <ul class="dropdown__menu">
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">dropdown-item</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">dropdown-item</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">dropdown-item</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link fas fa-search"></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Button components -->
+      <div class="u-center-text">
+        <h2 class="heading-secondary">
+          Button Components
+        </h2>
+        <span
+          class="hr hr--center hr--short u-margin-bottom-medium u-margin-top-small"
+        ></span>
+      </div>
+      <div class="u-margin-bottom-huge">
+        <a href="#" class="btn-text">Outline Button</a>
+        <a href="#" class="btn btn--white btn--rounded">rounded button</a>
+        <a href="#" class="btn btn--orange">primary-col button</a>
+        <a href="#" class="btn btn--white btn--icon" icon-name="&#xf05a;"
+          >Button with icon</a
+        >
+        <a
+          href="#"
+          class="btn btn--orange btn--animated"
+          title="It apperars from down onload"
+          >Animated Button</a
+        >
+        <a href="#" class="btn btn--white btn--disabled" tabindex="-1"
+          >Disabled Button</a
+        >
+      </div>
+
+      <!-- Background video component -->
+      <div class="u-center-text">
+        <h2 class="heading-secondary">
+          Background video Component
+        </h2>
+        <span
+          class="hr hr--center hr--short u-margin-bottom-medium u-margin-top-small"
+        ></span>
+      </div>
+      <div
+        style="height: 50rem; position: relative;"
+        class="u-margin-bottom-huge"
+      >
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported
+          </video>
+        </div>
+      </div>
+
+      <!-- Composition components -->
+      <div class="u-center-text">
+        <h2 class="heading-secondary">
+          Composition Component
+        </h2>
+        <span
+          class="hr hr--center hr--short u-margin-bottom-huge u-margin-top-small"
+        ></span>
+      </div>
+      <div class="composition inner-container" id="section-compo">
+        &nbsp;
+        <a href="#popup1" class="composition__link"
+          ><img
+            src="img/nat-1-large.jpg"
+            alt="img-1"
+            class="composition__photo composition__photo--1"
+        /></a>
+
+        <a href="#popup2" class="composition__link"
+          ><img
+            src="img/nat-2-large.jpg"
+            alt="img-2"
+            class="composition__photo composition__photo--2"
+        /></a>
+
+        <a href="#popup3" class="composition__link"
+          ><img
+            src="img/nat-3-large.jpg"
+            alt="img-3"
+            class="composition__photo composition__photo--3"
+        /></a>
+      </div>
+
+      <!-- feature-box component -->
+      <div class="u-center-text">
+        <h2 class="heading-secondary">
+          Feature-box Component
+        </h2>
+        <span
+          class="hr hr--center hr--short u-margin-bottom-big u-margin-top-small"
+        ></span>
+      </div>
+      <div class="hover-card inner-container">
+        <div class="hover-card__main">
+          <a href="#" class="hover-card__link">
+            <img
+              src="img/1.jpg"
+              alt="pic-1"
+              class="hover-card__photo"
+              style="width:100%"
+            />
+            <div class="hover-card__circle">
+              <i class="hover-card__arrow fas fa-share"></i>
+            </div>
+          </a>
+        </div>
+        <div class="hover-footer">
+          <h3 class="hover-card__text">
+            <div class="hover-card__shape"></div>
+            <a href="#" class="hover-card__text-link">Caption</a>
+          </h3>
+        </div>
+      </div>
+
+      <!-- Popup component -->
+      <div class="u-center-text u-margin-top-huge" id="section-popup">
+        <h2 class="heading-secondary">
+          Popup Component
+        </h2>
+        <span
+          class="hr hr--center hr--short u-margin-bottom-big u-margin-top-small"
+        ></span>
+        <a href="#popup-test" class="btn btn--white">Display Popup</a>
+      </div>
+      <div class="popup" id="popup-test">
+        <div class="popup__content">
+          <div class="popup__left">
+            <img src="img/nat-8.jpg" alt="Tour img" class="popup__img" />
+          </div>
+          <div class="popup__right">
+            <a href="#section-popup" class="popup__close">&times;</a>
+            <h2 class="heading-secondary u-margin-bottom-small">
+              Nice Title Here
+            </h2>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Awesome &ndash; That is really a nice card
+            </h3>
+            <p class="popup__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              eum magni suscipit minus dolores ratione labore minima delectus
+              laboriosam exercitationem tempora et quam, rerum quia iure
+              perspiciatis quos odit eius! Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Ullam impedit quam eveniet tempora
+              facere iste sequi dolor aspernatur eum magnam, quisquam sint,
+              maxime veritatis! Quo reprehenderit aperiam error odit modi? Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Est vel amet
+              ullam repellendus fugit deserunt!
+            </p>
+            <a
+              href="#"
+              class="btn btn--orange btn--icon btn--rounded"
+              icon-name="&#xf05a;"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="popup" id="popup1">
+        <div class="popup__content">
+          <img src="img/nat-1-large.jpg" alt="img-1" class="popup__img" />
+          <a href="#section-compo" class="popup__close">&times;</a>
+        </div>
+      </div>
+      <div class="popup" id="popup2">
+        <div class="popup__content">
+          <img src="img/nat-2-large.jpg" alt="img-1" class="popup__img" />
+          <a href="#section-compo" class="popup__close">&times;</a>
+        </div>
+      </div>
+      <div class="popup" id="popup3">
+        <div class="popup__content">
+          <img src="img/nat-3-large.jpg" alt="img-1" class="popup__img" />
+          <a href="#section-compo" class="popup__close">&times;</a>
+        </div>
+      </div>
+
+      <!-- Flip-card component -->
+      <div class="u-center-text u-margin-top-huge">
+        <h2 class="heading-secondary">
+          Flip-card Component
+        </h2>
+        <span
+          class="hr hr--center hr--short u-margin-bottom-big u-margin-top-small"
+        ></span>
+      </div>
+      <div class="inner-container">
+        <div class="card">
+          <div class="card__side card__side--front card__side--front-1">
+            <div class="card__picture card__picture--1">
+              &nbsp;
+            </div>
+            <h4 class="card__heading">
+              <span class="card__heading-span card__heading-span--1"
+                >Frond Side Heading</span
+              >
+            </h4>
+            <div class="card__details">
+              <ul class="card__list">
+                <li class="card__item">Item no 1</li>
+                <li class="card__item">Item no 2</li>
+                <li class="card__item">Item no 3</li>
+                <li class="card__item">Item no 4</li>
+                <li class="card__item">Item no 5</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card__side card__side--back card__side--back-1">
+            <div class="card__center">
+              <div class="card__content-box u-margin-bottom-big">
+                <p class="card__content-small">Small</p>
+                <div class="card__content-large">Large</div>
+              </div>
+              <a
+                href="#popup-test"
+                class="btn btn--white btn--rounded btn--icon"
+                icon-name="&#xf0a4;"
+                >Click Me</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- help-box component -->
+      <div class="u-center-text u-margin-top-huge">
+        <h2 class="heading-secondary">
+          Help-Box Component
+        </h2>
+        <span
+          class="hr hr--center hr--short u-margin-bottom-big u-margin-top-small"
+        ></span>
+      </div>
+      <div class="inner-container">
+        <div class="help-box">
+          <div class="help-box__circle">
+            <i class="help-box__icon fas fa-question-circle"></i>
+          </div>
+          <h3 class="heading-tertiary u-margin-bottom-small u-margin-top-small">
+            PRESALES QUESTION?
+          </h3>
+          <p class="feature-box__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.
+          </p>
+          <a href="#" class="btn-text">Learn more</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

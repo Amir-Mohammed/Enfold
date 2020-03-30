@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 103rem;
+  margin: 0 auto;
+}
+
+.inner-container {
+  max-width: 38rem;
+  margin-left: auto;
+  margin-right: auto;
+}

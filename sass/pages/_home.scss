@@ -1,0 +1,30 @@
+.section-showcase {
+  padding: 18rem 0 10rem;
+  margin-top: -11vh;
+  background-color: $color-gray-light;
+  border-bottom: 0.1rem solid $color-gray-light-2;
+}
+
+.section-gallery {
+  padding: 10rem 0 5rem;
+  border-bottom: 0.1rem solid $color-gray-light-2;
+}
+
+.section-help {
+  padding: 4rem 0;
+  background-image: url(../img/help.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  .paragraph__help {
+    color: $color-gray-light;
+    font-weight: 400;
+  }
+}
+
+.section-card {
+  background-color: $color-gray-light;
+  padding: 10rem 0;
+}
